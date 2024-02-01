@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780CFA312B6A571B009FA22C /* PlayersInscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CFA302B6A571B009FA22C /* PlayersInscriptionView.swift */; };
+		7857457C2B6B8A2600841A54 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857457B2B6B8A2600841A54 /* PlayerModel.swift */; };
+		785745862B6B90ED00841A54 /* FullScreenCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785745852B6B90ED00841A54 /* FullScreenCoverView.swift */; };
+		785745892B6BA50A00841A54 /* RoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785745882B6BA50A00841A54 /* RoundModel.swift */; };
+		7857458B2B6BA8C000841A54 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857458A2B6BA8C000841A54 /* GameModel.swift */; };
+		787081132B6AF059009214E1 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787081122B6AF059009214E1 /* ScoresView.swift */; };
 		78F224A02B5EF302007C63A2 /* ZippyDartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */; };
-		78F224A22B5EF302007C63A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F224A12B5EF302007C63A2 /* ContentView.swift */; };
 		78F224A42B5EF303007C63A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F224A32B5EF303007C63A2 /* Assets.xcassets */; };
 		78F224A72B5EF303007C63A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F224A62B5EF303007C63A2 /* Preview Assets.xcassets */; };
 		78F224B12B5EF303007C63A2 /* ZippyDartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F224B02B5EF303007C63A2 /* ZippyDartTests.swift */; };
 		78F224BB2B5EF303007C63A2 /* ZippyDartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F224BA2B5EF303007C63A2 /* ZippyDartUITests.swift */; };
 		78F224BD2B5EF303007C63A2 /* ZippyDartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F224BC2B5EF303007C63A2 /* ZippyDartUITestsLaunchTests.swift */; };
+		78F224CD2B5FBF9E007C63A2 /* SeymourOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F224CC2B5FBF9E007C63A2 /* SeymourOne-Regular.ttf */; };
+		78F224D42B5FCE6A007C63A2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F224D32B5FCE6A007C63A2 /* Color.swift */; };
+		78F224D62B5FD446007C63A2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F224D52B5FD446007C63A2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780CFA302B6A571B009FA22C /* PlayersInscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersInscriptionView.swift; sourceTree = "<group>"; };
+		7857457B2B6B8A2600841A54 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		785745852B6B90ED00841A54 /* FullScreenCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverView.swift; sourceTree = "<group>"; };
+		785745882B6BA50A00841A54 /* RoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundModel.swift; sourceTree = "<group>"; };
+		7857458A2B6BA8C000841A54 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		787081122B6AF059009214E1 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
 		78F2249C2B5EF302007C63A2 /* ZippyDart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZippyDart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZippyDartApp.swift; sourceTree = "<group>"; };
-		78F224A12B5EF302007C63A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78F224A32B5EF303007C63A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F224A62B5EF303007C63A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78F224AC2B5EF303007C63A2 /* ZippyDartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZippyDartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,10 @@
 		78F224B62B5EF303007C63A2 /* ZippyDartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZippyDartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F224BA2B5EF303007C63A2 /* ZippyDartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZippyDartUITests.swift; sourceTree = "<group>"; };
 		78F224BC2B5EF303007C63A2 /* ZippyDartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZippyDartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78F224CC2B5FBF9E007C63A2 /* SeymourOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SeymourOne-Regular.ttf"; sourceTree = "<group>"; };
+		78F224CE2B5FC015007C63A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78F224D32B5FCE6A007C63A2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		78F224D52B5FD446007C63A2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		785745872B6BA3A600841A54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7857457B2B6B8A2600841A54 /* PlayerModel.swift */,
+				785745882B6BA50A00841A54 /* RoundModel.swift */,
+				7857458A2B6BA8C000841A54 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		78F224932B5EF302007C63A2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +121,11 @@
 		78F2249E2B5EF302007C63A2 /* ZippyDart */ = {
 			isa = PBXGroup;
 			children = (
-				78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */,
-				78F224A12B5EF302007C63A2 /* ContentView.swift */,
+				78F224DE2B614635007C63A2 /* Fonts */,
+				78F224DB2B611E47007C63A2 /* App */,
+				78F224CE2B5FC015007C63A2 /* Info.plist */,
 				78F224A32B5EF303007C63A2 /* Assets.xcassets */,
+				78F224D22B5FCE56007C63A2 /* Extensions */,
 				78F224A52B5EF303007C63A2 /* Preview Content */,
 			);
 			path = ZippyDart;
@@ -125,6 +154,35 @@
 				78F224BC2B5EF303007C63A2 /* ZippyDartUITestsLaunchTests.swift */,
 			);
 			path = ZippyDartUITests;
+			sourceTree = "<group>";
+		};
+		78F224D22B5FCE56007C63A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78F224D32B5FCE6A007C63A2 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78F224DB2B611E47007C63A2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				785745872B6BA3A600841A54 /* Model */,
+				787081122B6AF059009214E1 /* ScoresView.swift */,
+				780CFA302B6A571B009FA22C /* PlayersInscriptionView.swift */,
+				78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */,
+				78F224D52B5FD446007C63A2 /* Launch Screen.storyboard */,
+				785745852B6B90ED00841A54 /* FullScreenCoverView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		78F224DE2B614635007C63A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				78F224CC2B5FBF9E007C63A2 /* SeymourOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F224A72B5EF303007C63A2 /* Preview Assets.xcassets in Resources */,
+				78F224CD2B5FBF9E007C63A2 /* SeymourOne-Regular.ttf in Resources */,
+				78F224D62B5FD446007C63A2 /* Launch Screen.storyboard in Resources */,
 				78F224A42B5EF303007C63A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F224A22B5EF302007C63A2 /* ContentView.swift in Sources */,
+				7857457C2B6B8A2600841A54 /* PlayerModel.swift in Sources */,
+				785745892B6BA50A00841A54 /* RoundModel.swift in Sources */,
 				78F224A02B5EF302007C63A2 /* ZippyDartApp.swift in Sources */,
+				780CFA312B6A571B009FA22C /* PlayersInscriptionView.swift in Sources */,
+				785745862B6B90ED00841A54 /* FullScreenCoverView.swift in Sources */,
+				7857458B2B6BA8C000841A54 /* GameModel.swift in Sources */,
+				787081132B6AF059009214E1 /* ScoresView.swift in Sources */,
+				78F224D42B5FCE6A007C63A2 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +490,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZippyDart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZippyDart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZippyDart;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +504,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = leasautjeau.ZippyDart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,11 +524,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZippyDart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZippyDart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZippyDart;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +538,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = leasautjeau.ZippyDart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
