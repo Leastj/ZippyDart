@@ -12,7 +12,8 @@
 		785745862B6B90ED00841A54 /* FullScreenCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785745852B6B90ED00841A54 /* FullScreenCoverView.swift */; };
 		785745892B6BA50A00841A54 /* RoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785745882B6BA50A00841A54 /* RoundModel.swift */; };
 		7857458B2B6BA8C000841A54 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857458A2B6BA8C000841A54 /* GameModel.swift */; };
-		787081132B6AF059009214E1 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787081122B6AF059009214E1 /* ScoresView.swift */; };
+		7857458D2B6BC81100841A54 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857458C2B6BC81100841A54 /* Card.swift */; };
+		787081132B6AF059009214E1 /* ScoreBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787081122B6AF059009214E1 /* ScoreBoardView.swift */; };
 		78F224A02B5EF302007C63A2 /* ZippyDartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */; };
 		78F224A42B5EF303007C63A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F224A32B5EF303007C63A2 /* Assets.xcassets */; };
 		78F224A72B5EF303007C63A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F224A62B5EF303007C63A2 /* Preview Assets.xcassets */; };
@@ -47,7 +48,8 @@
 		785745852B6B90ED00841A54 /* FullScreenCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverView.swift; sourceTree = "<group>"; };
 		785745882B6BA50A00841A54 /* RoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundModel.swift; sourceTree = "<group>"; };
 		7857458A2B6BA8C000841A54 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
-		787081122B6AF059009214E1 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		7857458C2B6BC81100841A54 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		787081122B6AF059009214E1 /* ScoreBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardView.swift; sourceTree = "<group>"; };
 		78F2249C2B5EF302007C63A2 /* ZippyDart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZippyDart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZippyDartApp.swift; sourceTree = "<group>"; };
 		78F224A32B5EF303007C63A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,11 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				785745872B6BA3A600841A54 /* Model */,
-				787081122B6AF059009214E1 /* ScoresView.swift */,
+				787081122B6AF059009214E1 /* ScoreBoardView.swift */,
 				780CFA302B6A571B009FA22C /* PlayersInscriptionView.swift */,
 				78F2249F2B5EF302007C63A2 /* ZippyDartApp.swift */,
 				78F224D52B5FD446007C63A2 /* Launch Screen.storyboard */,
 				785745852B6B90ED00841A54 /* FullScreenCoverView.swift */,
+				7857458C2B6BC81100841A54 /* Card.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -318,12 +321,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7857457C2B6B8A2600841A54 /* PlayerModel.swift in Sources */,
+				7857458D2B6BC81100841A54 /* Card.swift in Sources */,
 				785745892B6BA50A00841A54 /* RoundModel.swift in Sources */,
 				78F224A02B5EF302007C63A2 /* ZippyDartApp.swift in Sources */,
 				780CFA312B6A571B009FA22C /* PlayersInscriptionView.swift in Sources */,
 				785745862B6B90ED00841A54 /* FullScreenCoverView.swift in Sources */,
 				7857458B2B6BA8C000841A54 /* GameModel.swift in Sources */,
-				787081132B6AF059009214E1 /* ScoresView.swift in Sources */,
+				787081132B6AF059009214E1 /* ScoreBoardView.swift in Sources */,
 				78F224D42B5FCE6A007C63A2 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZippyDart/Preview Content\"";
+				DEVELOPMENT_TEAM = MHZQZNUZZM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZippyDart/Info.plist;
@@ -522,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZippyDart/Preview Content\"";
+				DEVELOPMENT_TEAM = MHZQZNUZZM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZippyDart/Info.plist;

@@ -49,8 +49,8 @@ struct PlayersInscriptionView: View {
                     ButtonAddPlayer(addPlayer: addPlayer)
                     Spacer()
                     
-                    NavigationLink(destination: ScoreBoardView(), isActive: $navigateToScoreBoardView) {
-                        EmptyView()
+                    NavigationLink(destination: ScoreBoardView(players: players), isActive: $navigateToScoreBoardView) {
+                                       EmptyView()
                     }
                     
                     Button(action: {
