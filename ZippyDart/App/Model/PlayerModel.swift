@@ -14,7 +14,7 @@ struct Player: Identifiable {
     var totalPoints: Int // Points restants pour ce joueur (par exemple, 301 au début)
     var rounds: [Round] // Liste des tours joués par le joueur (programmé pour 3 scores à chaque tours)
     
-    
+    //HELLO TEST
     
   
     // Ajouter un nouveau tour pour le joueur avec des scores donnés
